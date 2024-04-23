@@ -69,8 +69,8 @@ Here's an example of how we can use `os.environ` to load our configuration setti
 ```python
 import os
 # Access environment variables
-db_user = os.environ("DB_USER")
-db_password = os.environ("DB_PASS")
+db_user = os.environ["DB_USER"]
+  db_password = os.environ["DB_PASS"]
 ```
 
 This will load the `key-value` pairs from your `.env` file, which we can then access using the `os.environ()` method.
