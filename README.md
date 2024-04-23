@@ -110,7 +110,9 @@ When you run this script, it will load the environment variables from the `.env`
 
 By using `python-dotenv`, you can keep your credentials and device information secure in the `.env` file, separate from your codebase. This makes it easier to manage configurations and ensures that sensitive information is not exposed in your scripts.
 
-#### Credits/Resources
+---
+
+Credits/Resources
 
 1. [Hiding Passwords and Secret Keys in Environment Variables (Mac & Linux)](https://youtu.be/5iWhQWVXosU?si=evy4X5blLxkt8uAW)
 2. [Hiding Passwords and Secret Keys in Environment Variables (Windows)](https://youtu.be/IolxqkL7cD8?si=zVdRuJMlk8Vae-n2)
